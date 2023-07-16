@@ -24,4 +24,6 @@ Route::get('/usuarios/{qnt?}', [SiteController::class, 'usuarios']);
 
 Route::get('/sair', [SiteController::class, 'sair']);
 
+Route::get('/exercicios', [SiteController::class, 'exercicios']);
+
 
